@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Uchinchi Kurs Talabalar</title>
+</head>
+<body>
+    <h1>Uchinchi Kurs Talabalari</h1>
+    <hr>
+        {% for talaba in uchinchi_kurs %}
+            <p>{{ talaba.ism }} - {{ talaba.yosh }} yosh, {{ talaba.kurs }}-kurs</p>
+        {% endfor %}
+    </hr>
+</body>
+</html>

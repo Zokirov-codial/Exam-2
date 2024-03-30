@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Tugallanmagan Loyihalar</title>
+</head>
+<body>
+    <h1>Tugallanmagan Loyihalar</h1>
+    <hr>
+        {% for loyiha in tugallanmagan %}
+            <p>{{ loyiha.sarlavha }} - {{ loyiha.sana }}, {{ loyiha.tafsilotlar }}</p>
+        {% endfor %}
+    </hr>
+</body>
+</html>

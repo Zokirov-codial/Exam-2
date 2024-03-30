@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yangi Reja Qo'shish</title>
+</head>
+<body>
+    <h1>Yangi Reja Qo'shish</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Saqlash</button>
+    </form>
+</body>
+</html>
